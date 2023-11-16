@@ -9,12 +9,9 @@
 </style>
 
 <div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
+     <div {{ react_component('CreationNewProject', {users:users, userId:userId}) }}>
+    </div>
 
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code><a href="{{ 'C:/Users/pasca/Documents/SIMPLON/Semaine_13_AU_17_11_23/Application_gestion_projet_agile/app_gestion_projets/src/Controller/ProjetController.php'|file_link(0) }}">src/Controller/ProjetController.php</a></code></li>
-        <li>Your template at <code><a href="{{ 'C:/Users/pasca/Documents/SIMPLON/Semaine_13_AU_17_11_23/Application_gestion_projet_agile/app_gestion_projets/templates/projet/index.html.twig'|file_link(0) }}">templates/projet/index.html.twig</a></code></li>
-    </ul>
+
 </div>
 {% endblock %}

@@ -4,12 +4,11 @@ import  'bootstrap';
 
 import ProjectCard from  './ProjectCard';
 
-import Separator from  './Separator';
 export default function NewProjectCardContainer() {
 
     return ( 
        <div className='new-project-card-container'>
-            <ProjectCard  projectName="Créer un nouveau projet"/>
+            <ProjectCard projectName="Créer un nouveau projet"/>
         </div>
     );
 

@@ -1,5 +1,11 @@
 import React from 'react';
+import FormNewProject from './FormNewProject';
 
 export default function (props) {
-    return <div>Création du nouveau projet!!</div>;
-}
+
+    return (
+    <div>
+        <FormNewProject users={props.users} idUser={props.userId}/>
+    </div>
+);
+};
