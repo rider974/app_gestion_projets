@@ -1,0 +1,42 @@
+.userInitials {
+    width:45px;
+    height:45px;
+    text-align:center; 
+    display:flex;  
+    justify-content: center; 
+    align-items: center;
+    border:3px solid black;
+    border-radius:50%;
+    background-color:#EB3800;
+    text-transform:uppercase;
+    font-weight:bold;
+}
+    
+.appLogo {
+    width:123px;
+    height:83px;
+    border-radius: 5%;
+    justify-self:start;
+}
+.appTitle {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+}
+.header {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    margin:3%;
+}
+.InitialsContainer 
+{
+    align-items: center;
+    display:grid;
+    justify-self: end;
+}
+.horizontalLine {
+    grid-column-start:1;
+    grid-column-end:-1;
+    margin:3% 2% 3% 2%;
+    height:1px; 
+    border-bottom: 1px solid black;
+}

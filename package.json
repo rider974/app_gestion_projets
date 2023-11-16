@@ -5,10 +5,12 @@
         "@babel/preset-react": "^7.0.0",
         "@hotwired/stimulus": "^3.0.0",
         "@hotwired/turbo": "^7.0.1",
+        "@popperjs/core": "^2.11.8",
         "@symfony/stimulus-bridge": "^3.2.0",
         "@symfony/ux-react": "file:vendor/symfony/ux-react/assets",
         "@symfony/ux-turbo": "file:vendor/symfony/ux-turbo/assets",
         "@symfony/webpack-encore": "^4.0.0",
+        "bootstrap": "^5.3.2",
         "core-js": "^3.23.0",
         "eslint": "^8.53.0",
         "eslint-plugin-react": "^7.33.2",
@@ -29,6 +31,8 @@
     "dependencies": {
         "prop-types": "^15.8.1",
         "react": "^18.2.0",
-        "react-dom": "^18.2.0"
+        "react-dom": "^18.2.0",
+        "react-router": "^6.18.0",
+        "react-router-dom": "^6.18.0"
     }
 }

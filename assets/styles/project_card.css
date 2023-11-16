@@ -1,0 +1,31 @@
+.card-project{
+    margin-right:5%;
+    
+    display: grid; 
+    grid-template-columns:1fr ;
+    grid-auto-columns: minmax(120px,120px);
+    max-width: fit-content;
+
+}
+.cardsContainer{
+    display: grid; 
+    grid-template-columns:1fr 1fr 1fr 1fr;
+
+}
+.card-project > .card-body  {
+    width: 200px; 
+    min-width:12%  
+}
+.separator-new-current-project {
+    grid-column-start:1;
+    grid-column-end:-1;
+    margin:3% 2% 3% 2%;
+    height:1px; 
+    border-bottom: 1px solid black;
+}
+.new-project-card-container{
+    margin-bottom:5%;
+}
+.container-projects{
+    margin: 0 5% 0 5%;
+}
