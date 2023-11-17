@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import './../../styles/form_new_project.css';
 import 'bootstrap';
 
-export default function InputTitleProject({onChange}, props) {
+export default function InputTitleProject({onChange, name, id, currentValue, required}) {
 
     const [inputValue, setInputValue] = useState('');
 
@@ -15,7 +15,7 @@ export default function InputTitleProject({onChange}, props) {
     }
     return ( 
     <div >
-        <input type="text" name={props?.name ?? props.name}id={props?.id} className='form-control' value={props?.currentValue ?? props.currentValue} onChange={handleInputChange}/>
+        <input type="text" name={name ??name}id={id} className='form-control' value={currentValue ?? currentValue} onChange={handleInputChange} required={required ? true: false}/>
 
     </div>
     );

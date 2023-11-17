@@ -1,7 +1,6 @@
 import React from 'react';
 import './../../styles/project_card.css';
 import  'bootstrap';
-import { Link, useHref } from 'react-router';
 export default function ProjectCard(props) {
 
  
