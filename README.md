@@ -1,8 +1,8 @@
-<h1>BRIEF SIMPLON - Application de getsion de projet AGILE (Exemple Trello)</h1>
+<h1>BRIEF SIMPLON - Application de gestion de projet AGILE (Exemple Trello)</h1>
 
 <h4>Objectifs:</h4> 
 
-<p>Une entreprise souhaite développer une application de gestion de projets Agile qui permet à ces équipes de travailler ensemble de manière efficace en suivant les principes de développement Agile. Le but est d’aider ces équipes à suivre la progression des actions, des fonctionnalités et des tâches à faire sur chaque projet de l’entreprise.L’entreprise souhaite s'inspirer de Trello ou de Jira.</p>
+<p>Une entreprise souhaite développer une application de gestion de projets Agile qui permet à ses équipes de travailler ensemble de manière efficace en suivant les principes de développement Agile. Le but est d’aider ses équipes à suivre la progression des actions, des fonctionnalités et des tâches à faire sur chaque projet de l’entreprise.L’entreprise souhaite s'inspirer de Trello ou de Jira.</p>
 
 <p>Fonctionnalités:</p>
 
