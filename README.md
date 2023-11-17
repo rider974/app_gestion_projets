@@ -65,7 +65,7 @@
 <p>
   3 - Copier le code source du repo sur l'ordinateur (git clone https://github.com/rider974/app_gestion_projets.git)
 </p>
-<p> 4 - COnfigurer la base de données : 
+<p> 4 - Configurer la base de données : 
 Copier/Coller le script de base de données dans le dossier Conception/script_bdd.sql dans phpMyAdmin ou un serveur SGBD MySQL de votre choix</p>
 
 <p>5 - Installer WAMPP/XAMPP/MAMPP ou un équivalent </p>
@@ -73,7 +73,7 @@ Copier/Coller le script de base de données dans le dossier Conception/script_bd
 
 <h2>Pour lancer l'application</h2>
 <p> 1- Lancer son wampp/xampp/mampp qui contient la base de données</p>
-<p> 2 - Ouvrir un terminal de commande type cmder/PowerShell/terminal windows/MAC à la racinde de la solution clonée</p>
+<p> 2 - Ouvrir un terminal de commande type cmder/PowerShell/terminal windows/MAC à la racine de la solution clonée</p>
 <p> 3 - Taper la commande "symfony server:start"</p>
 <p> 4 - Aller dans le navigateur à l'adresse "http://localhost:8000"</p>
 
