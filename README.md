@@ -21,8 +21,34 @@
 ![image](https://github.com/rider974/app_gestion_projets/assets/116554314/d65f5b53-04c4-478b-8547-1cf6b11eb0d6)
 
 
-<h4>MCD </h4>
+<h4>MCD</h4>
 
 ![image](https://github.com/rider974/app_gestion_projets/assets/116554314/36d91208-a5e8-4129-82a3-cffeeee88acd)
 
-<h4></h4>
+<h4>Maquette : </h4>
+
+<h3>Page d'accueil (1/5)</h3>
+
+![image](https://github.com/rider974/app_gestion_projets/assets/116554314/bddc1635-5f12-4521-b880-fb408c2e5cc7)
+
+<h3>Création d'un projet (2/5)</h3>
+
+![image](https://github.com/rider974/app_gestion_projets/assets/116554314/65d6ec5b-42f4-46d3-b253-6487bac82f78)
+
+<h3>Dashboard d'un projet (3/5)</h3>
+
+![image](https://github.com/rider974/app_gestion_projets/assets/116554314/2bb0b27c-5223-4bbf-bc23-750231daae11)
+
+<h3>Créer une tâche (4/5)</h3>
+
+![image](https://github.com/rider974/app_gestion_projets/assets/116554314/779d99ca-338d-41c7-b2af-af449fbc312e)
+
+<h3>Modifier une tâche (5/5)</h3>
+
+![image](https://github.com/rider974/app_gestion_projets/assets/116554314/60ed9b8e-4e08-4fed-ae68-0e2d1863fd45)
+
+
+
+
+
+
