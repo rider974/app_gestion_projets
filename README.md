@@ -48,6 +48,10 @@
 ![image](https://github.com/rider974/app_gestion_projets/assets/116554314/60ed9b8e-4e08-4fed-ae68-0e2d1863fd45)
 
 
+<h4>Trello </h4>
+<p>Lien vers le dashboard du projet : https://trello.com/invite/b/h9fSsjno/ATTIa0674fa4e6e41a55cd905c91221d6a7723D6D4AC/application-gestion-de-projet-agile</p>
+
+![image](https://github.com/rider974/app_gestion_projets/assets/116554314/23e53be0-23df-465c-86b1-ead2505b3eec)
 
 <h2>Installation Nécessaire!!!</h2>
 
@@ -63,4 +67,13 @@
 </p>
 <p> 4 - COnfigurer la base de données : 
 Copier/Coller le script de base de données dans le dossier Conception/script_bdd.sql dans phpMyAdmin ou un serveur SGBD MySQL de votre choix</p>
+
+<p>5 - Installer WAMPP/XAMPP/MAMPP ou un équivalent </p>
+
+
+<h2>Pour lancer l'application</h2>
+<p> 1- Lancer son wampp/xampp/mampp qui contient la base de données</p>
+<p> 2 - Ouvrir un terminal de commande type cmder/PowerShell/terminal windows/MAC à la racinde de la solution clonée</p>
+<p> 3 - Taper la commande "symfony server:start"</p>
+<p> 4 - Aller dans le navigateur à l'adresse "http://localhost:8000"</p>
 
