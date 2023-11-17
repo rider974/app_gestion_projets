@@ -49,6 +49,18 @@
 
 
 
+<h2>Installation Nécessaire!!!</h2>
 
-
+<p>
+  1 - Avoir une version de PHP >= 8.0 (lien pour télécharger la dernière version "Current Stable" de PHP https://www.php.net/downloads.php) 
+</p>
+<p>
+  2- Installer Composer (lien d'installation : https://getcomposer.org/Composer-Setup.exe)
+  Si ce lien ne marche pas veuillez aller vers la page d'installation : https://getcomposer.org/download/
+</p>
+<p>
+  3 - Copier le code source du repo sur l'ordinateur (git clone https://github.com/rider974/app_gestion_projets.git)
+</p>
+<p> 4 - COnfigurer la base de données : 
+Copier/Coller le script de base de données dans le dossier Conception/script_bdd.sql dans phpMyAdmin ou un serveur SGBD MySQL de votre choix</p>
 
