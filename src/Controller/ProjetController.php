@@ -14,6 +14,14 @@ use App\Entity\Projet;
 use App\Repository\UtilisateurRepository;
 
 use App\Entity\Utilisateur;
+
+use App\Repository\TableauRepository;
+
+use App\Entity\Tableau;
+
+use App\Repository\ColonneRepository;
+
+use App\Entity\Colonne;
 class ProjetController extends AbstractController
 {
     private $doctrine;
@@ -58,12 +66,16 @@ class ProjetController extends AbstractController
     public function createProject(Request $request): Response
     {
         $content = json_decode($request->getContent(),true);
+        
+        $em = $this->doctrine->getManager();
+
         $projectTitle = $content["titleProject"];
         
         $arrayIdsMembers = $content["arrayIdsMembers"];
-        
+    
         $goals = $content["goals"];
 
+        // creation of the project 
         $newProject = new Projet();
         $newProject->setTitre($projectTitle);
         
@@ -73,9 +85,17 @@ class ProjetController extends AbstractController
         {
             $newProject->addUtilisateur($this->doctrine->getRepository(Utilisateur::class)->find((int)$idMember));
         }
-
-        $em = $this->doctrine->getManager();
         $em->persist($newProject);
+
+        // creation of the table 
+        // creation of the 3 columns (EN cours, A faire, Terminé) related to each table 
+
+        $table = new Tableau();
+        $table->setProjet($newProject);
+    
+        // add Columns to the table
+        $this->createColumns($table, ["A faire", "En cours", "Terminé"]);
+        $em->persist($table);
         $em->flush();
 
         return new JsonResponse("Le projet a bien été créer", 200);
@@ -91,6 +111,27 @@ class ProjetController extends AbstractController
             'project'=> $project
         ]);
     }
+
+    /**
+     * Create each columns for the table 
+     *
+     * param Type $var Description
+     * return type
+     **/
+    private function createColumns($table, $arrayColumnNames)
+    {
+        $em = $this->doctrine->getManager();
+
+        foreach($arrayColumnNames as $oneColumnName)
+         {
+             $column = new Colonne();
+             $column->setIntitule($oneColumnName);
+             $table->addColonne($column);
+             $em->persist($column);
+         }
+    }
+
+   
     
     
 }
